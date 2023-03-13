@@ -1,3 +1,6 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
 '''
 This code defines the vehicle parameters, initial conditions, and simulation parameters at the beginning. 
 It then defines the net force function, which returns the net force on the vehicle as a function of time. 
@@ -11,9 +14,6 @@ Finally, the code plots the position of the vehicle over time using the Matplotl
 Note that this is a very basic example of 1D vehicle dynamics simulation, and you may need to modify the code 
 to include more realistic vehicle parameters and net force functions.
 '''
-
-import numpy as np
-import matplotlib.pyplot as plt
 
 # Define vehicle parameters
 m = 1000.0  # mass in kg
